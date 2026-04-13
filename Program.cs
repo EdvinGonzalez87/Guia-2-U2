@@ -1,35 +1,31 @@
-﻿internal class Program
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Dias de la semana");
-       int numero= int.Parse(Console.ReadLine());   
-
-        switch (numero)
+        Console.WriteLine("Clasificaciones");
+        Console.WriteLine("Ingrese su letra de calificacion");
+        Char letra = Convert.ToChar(Console.ReadLine().ToUpper());
+        switch (letra)
         {
-            case 1:
-                Console.WriteLine("Lunes");   
-                break;      
-            case 2:
-                Console.WriteLine("Martes");
+            case 'A':
+                Console.WriteLine("Exelente");
                 break;
-            case 3:
-                Console.WriteLine("Miercoles");
+            case 'B':
+                Console.WriteLine("Bueno");
                 break;
-            case 4:
-                Console.WriteLine("Jueves");
+            case 'C':
+                Console.WriteLine("Regular");
                 break;
-            case 5:
-                Console.WriteLine("Viernes");
+            case 'D':
+                Console.WriteLine("Deficiente");
                 break;
-             case 6:
-                 Console.WriteLine("Sabado");
-                break;
-            case 7:
-                Console.WriteLine("Domingo");
+            case 'F':
+                Console.WriteLine("Reprobado");
                 break;
             default:
-                Console.WriteLine("Ingrese un numero valido");  
+                Console.WriteLine("Digite una letra valida A, B, C, D, F");
                 break;
         }
     }

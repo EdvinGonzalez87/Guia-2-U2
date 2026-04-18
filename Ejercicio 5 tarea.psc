@@ -15,9 +15,9 @@ Algoritmo sin_titulo
     Leer cantidad
 	
     Escribir "Seleccione la forma de pago:"
-    Escribir "1 ? Efectivo (10%)"
-    Escribir "2 ? Tarjeta de crédito (5%)"
-    Escribir "3 ? Vale de regalo (15%)"
+    Escribir "1  Efectivo (10%)"
+    Escribir "2  Tarjeta de crÃ©dito (5%)"
+    Escribir "3  Vale de regalo (15%)"
     Leer opcion
 	
     // Total sin descuento (ya incluye IVA)
@@ -28,15 +28,15 @@ Algoritmo sin_titulo
             formaPago <- "Efectivo"
             descuento <- totalSinDescuento * 0.10
         2:
-            formaPago <- "Tarjeta de crédito"
+            formaPago <- "Tarjeta de crÃ©dito"
             descuento <- totalSinDescuento * 0.05
         3:
             formaPago <- "Vale de regalo"
             descuento <- totalSinDescuento * 0.15
         De Otro Modo:
-            Escribir "Opción no válida"
+            Escribir "OpciÃ³n no vÃ¡lida"
             descuento <- 0
-            formaPago <- "No válida"
+            formaPago <- "No vÃ¡lida"
     FinSegun
 	
     totalPagar <- totalSinDescuento - descuento

@@ -9,9 +9,9 @@
         double radianes = grados * Math.PI / 180;
 
         Console.WriteLine("Seleccione una opcion:");
-        Console.WriteLine("1 → Seno");
-        Console.WriteLine("2 → Coseno");
-        Console.WriteLine("3 → Tangente");
+        Console.WriteLine("1  Seno");
+        Console.WriteLine("2  Coseno");
+        Console.WriteLine("3  Tangente");
 
         int opcion = Convert.ToInt32(Console.ReadLine());
         double resultado;

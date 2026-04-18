@@ -3,10 +3,10 @@ Algoritmo sin_titulo
     Definir precio, total Como Real
 	
     Escribir "===== ESTADIO ====="
-    Escribir "1 ? Palco (Q300.00)"
-    Escribir "2 ? Tribuna (Q100 - Q125)"
-    Escribir "3 ? Preferencia (Q50 - Q75)"
-    Escribir "4 ? Generales (Q30 - Q50)"
+    Escribir "1  Palco (Q300.00)"
+    Escribir "2  Tribuna (Q100 - Q125)"
+    Escribir "3  Preferencia (Q50 - Q75)"
+    Escribir "4  Generales (Q30 - Q50)"
     Escribir "Seleccione el sector:"
     Leer sector
 	
@@ -38,7 +38,7 @@ Algoritmo sin_titulo
                 precio <- 0
             FinSi
         De Otro Modo:
-            Escribir "Opción no válida"
+            Escribir "OpciÃ³n no vÃ¡lida"
             precio <- 0
     FinSegun
 	

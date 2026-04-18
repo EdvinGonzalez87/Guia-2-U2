@@ -6,10 +6,10 @@
         double valor, metros, pies, cm, pulgadas;
 
         Console.WriteLine("===== CONVERSOR DE LONGITUD =====");
-        Console.WriteLine("1 → Metros");
-        Console.WriteLine("2 → Pies");
-        Console.WriteLine("3 → Centimetros");
-        Console.WriteLine("4 → Pulgadas");
+        Console.WriteLine("1  Metros");
+        Console.WriteLine("2  Pies");
+        Console.WriteLine("3  Centimetros");
+        Console.WriteLine("4  Pulgadas");
         Console.Write("Seleccione la unidad: ");
         opcion = Convert.ToInt32(Console.ReadLine());
 

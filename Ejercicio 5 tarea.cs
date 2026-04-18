@@ -15,9 +15,9 @@
         cantidad = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Seleccione la forma de pago:");
-        Console.WriteLine("1 → Efectivo (10%)");
-        Console.WriteLine("2 → Tarjeta de crédito (5%)");
-        Console.WriteLine("3 → Vale de regalo (15%)");
+        Console.WriteLine("1  Efectivo (10%)");
+        Console.WriteLine("2  Tarjeta de crédito (5%)");
+        Console.WriteLine("3  Vale de regalo (15%)");
         opcion = Convert.ToInt32(Console.ReadLine());
 
         // Total sin descuento (con IVA)
